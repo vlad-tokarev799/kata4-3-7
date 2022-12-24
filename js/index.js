@@ -37,8 +37,7 @@ function createInputHandler() {
 
       fetchData(url, {
         headers: {
-          accept: 'application/vnd.github.v3+json',
-          authorization: 'token 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'
+          accept: 'application/vnd.github.v3+json'
         }
       })
     } else {
